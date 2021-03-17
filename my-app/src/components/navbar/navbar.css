@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    padding: 100px;
+    font-size: large;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    writing-mode: vertical-lr;
+    
+  }
+  @media only screen and (min-width: 1024px) {
+    .container header .header-nav-area #nav_container  {
+      display:flex;
+    }
+  }
+  a, u {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
