@@ -1,21 +1,27 @@
-.navbar {
-    display: flex;
-    padding: 100px;
-    font-size: large;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+
+  a {
     position: relative;
-    writing-mode: vertical-lr;
-    
-  }
-  @media only screen and (min-width: 1024px) {
-    .container header .header-nav-area #nav_container  {
-      display:flex;
-    }
-  }
-  a, u {
-    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, cyan, cyan 50%, white 50%);
+    background-clip: text;
+    font-weight:bold;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none; 
+   
+  }
+
+a:hover {
+    background-position: 0 100%;
+  }
+
+.SocialLinks {
+    display: inline;  
 }
+
