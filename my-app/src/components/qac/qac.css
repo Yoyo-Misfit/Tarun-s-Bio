@@ -1,5 +1,6 @@
 .Qacpage{
     display: flex;
     color: whitesmoke;
-    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
