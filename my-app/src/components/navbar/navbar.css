@@ -12,6 +12,7 @@
     -webkit-text-fill-color: transparent;
     background-size: 200% 100%;
     background-position: 100%;
+    vertical-align: middle;
     transition: background-position 275ms ease;
     text-decoration: none; 
    

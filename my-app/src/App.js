@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
 import './App.css';
-import Icon from './assets/Icon.png'
+import Icon from './assets/Logo.png'
 import HomePage from './components/homepage/homepage';
 import Aboutpage from './components/about/about';
 import Projectspage from './components/projects/projects';
@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App-header">
       <div className="navbar">
-        <button className="logo" onClick={() => history.push('/')}><img width="40px" src={Icon} alt="Icon" /></button>
+        <div className="grow">
+          <button className="logo" onClick={() => history.push('/')}><img src={Icon} alt="Icon" /></button>
+        </div>
         <NavBar />
       </div>
       <Switch>
